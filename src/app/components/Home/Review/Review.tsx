@@ -28,28 +28,28 @@ const reviewData = [
       review:
         "This site has transformed my anime-watching experience! The HD quality and the vast collection of titles are unmatched. It's like a dream come true for anime fans!",
         title: "Manga Illustrator",
-        image: "/images/c1.png", 
+        image: "/images/p1.png", 
     },
     {
       name: "Alex Carter",
       review:
         "I love how easy it is to navigate the site. The personalized recommendations are spot-on, and I always find hidden gems I wouldn’t have discovered otherwise.",
         title: "Software Developer",
-        image: "/images/c2.png", 
+        image: "/images/p2.png", 
     },
     {
       name: "Haruto Yamamoto",
       review:
         "The streaming quality is superb, and the subtitles are accurate. This platform is a haven for anime enthusiasts looking for a seamless experience.",
         title: "Anime Critic",
-        image: "/images/c1.png", 
+        image: "/images/p4.png", 
     },
     {
-      name: "Mia Johnson",
+      name: "Mizaka Johnson",
       review:
-        "This site feels like a one-stop shop for all my anime needs. From classics to the latest episodes, it has everything I could ever want.",
+        "This site feels like the ultimate one-stop shop for all my anime needs. From beloved classics to the latest episodes, it has everything I could ask for, all in one place.",
         title: "Digital Marketer",
-        image: "/images/c2.png", 
+        image: "/images/p3.png", 
     },
   ];
   
