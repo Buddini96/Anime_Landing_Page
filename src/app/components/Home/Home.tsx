@@ -4,6 +4,7 @@ import WhyChoose from "./WhyChoose/WhyChoose";
 import AnalyticFeatures from "./AnalyticFeatures/AnalyticFeatures";
 import MostPopular from "./MostPopular/MostPopular";
 import Review from "./Review/Review";
+import Price from "./Price/Price";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <AnalyticFeatures />
       <MostPopular />
       <Review />
+      <Price />
     </div>
   );
 };

@@ -71,6 +71,7 @@ const Review = () => {
         >
           {reviewData.map((review) => (
             <ReviewCard 
+            key={review.name}
             name={review.name} 
             image={review.image} 
             review={review.review}

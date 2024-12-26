@@ -34,9 +34,10 @@ const MostPopular = () => {
         Most Popular
       </h1>
       <div className="mt-20 grid w-[90%] mx-auto grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4  gap-12">
-        {cardData.map((data) => (
+        {cardData.map((data, index) => (
           <MostPopularCard
-            key={data.title}
+            key={index}
+            id={String(index)}
             image={data.image}
             title={data.title}
             description={data.description}
