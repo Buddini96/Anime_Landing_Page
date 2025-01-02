@@ -20,11 +20,6 @@ export const navLinks = [
         label: 'Testimonials'
     },
     {
-        id: 5,
-        url: '#features',
-        label: 'Features'
-    },
-    {
         id: 6,
         url: '#contact',
         label: 'Contact'

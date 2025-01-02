@@ -8,7 +8,7 @@ const AnalyticFeatures = () => {
       {/* define grid */}
       <div className="w-[95%] sm:w-[80%] mx-auto items-center grid grid-cols-1 lg:grid-cols-2 gap-10">
         {/* Image */}
-        <div>
+        <div data-aos="fade-up" data-aos-anchor-placement="top-center">
           <Image
             src="/images/aboutBg.png"
             alt="image"
@@ -46,7 +46,7 @@ const AnalyticFeatures = () => {
               Quality Optimization
             </li>
           </ul>
-          <button className="mt-8 px-8 py-3 bg-gray-100 text-gray-800 font-semibold rounded-full hover:bg-[#E93306] transition-all duration-200 hover:text-white">
+          <button className="mt-8 px-8 py-3 bg-gray-100 text-gray-800 font-semibold rounded-full hover:bg-[#F86401] transition-all duration-200 hover:text-white">
             Explore More &rarr;
           </button>
         </div>

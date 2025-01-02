@@ -19,12 +19,15 @@ function Price() {
         Meet exciting Pricing Plans
       </h1>
       <div className="w-[90%] md:w-[80%] mt-20 mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10">
-        {priceData.map((price) => (
-          <PriceCard
+        {priceData.map((price, index) => (
+          <div
             key={price.plan}
-            plan={price.plan}
-            price={price.price}
-          />
+            data-aos={index === 0 ? "fade-up" : "fade-up"}
+            data-aos-anchor-placement="top-center"
+            data-aos-delay={index === 1 ? "100" : "0"}
+          >
+            <PriceCard plan={price.plan} price={price.price} />
+          </div>
         ))}
       </div>
     </div>

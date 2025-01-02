@@ -25,7 +25,7 @@ const Nav = ({openNav}: Props) => {
         {/* logo */}
         <h1 className="text-xl md:text-2xl font-extrabold">
           Ani
-          <span className="text-xl md:text-2xl text-[#E93306] font-extrabold">
+          <span className="text-xl md:text-2xl text-[#F86401] font-extrabold">
             Flix
           </span>
         </h1>
@@ -39,7 +39,7 @@ const Nav = ({openNav}: Props) => {
         </div>
         {/* Button */}
         <div className="flex items-center space-x-4">
-          <button className="md:px-8 md:py-2.5 px-6 py-2 text-white font-semibold text-base bg-gradient-to-r from-[#E93306] via-[#E93306] via-[#FF5733] to-[#FFA500] hover:from-[#FF5733] hover:via-[#FFA500] hover:to-[#FFD700] transition-all duration-200 rounded-full">
+          <button className="md:px-8 md:py-2.5 px-6 py-2 text-white font-semibold text-base bg-gradient-to-r from-[#F86401] via-[#E93306] via-[#F86401] to-[#FFA500] hover:from-[#FF5733] hover:via-[#FFA500] hover:to-[#FFD700] transition-all duration-200 rounded-full">
             Join Now
           </button>
           <HiBars3BottomRight onClick={openNav} className="w-8 h-8 cursor-pointer text-black lg:hidden" />

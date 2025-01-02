@@ -34,7 +34,7 @@ function Footer() {
           <div>
             <h1 className="text-xl md:text-2xl font-extrabold">
               Ani
-              <span className="text-xl md:text-2xl text-[#E93306] font-extrabold">
+              <span className="text-xl md:text-2xl text-[#F86401] font-extrabold">
                 Flix
               </span>
             </h1>
@@ -82,7 +82,7 @@ function Footer() {
         </div>
 
         <div className="mt-5 borrder-t pt-8 flex flex-col md:flex-row justify-center items-center text-black text-sm">
-          <p className="text-center font-medium">Copyright © 2024 AniFlix. All rights reserved.</p>
+          <p className="text-center font-medium">Copyright © 2025 AniFlix. All rights reserved.</p>
         </div>
       </div>
     </div>

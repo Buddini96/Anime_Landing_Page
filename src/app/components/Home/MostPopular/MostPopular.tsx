@@ -33,15 +33,21 @@ const MostPopular = () => {
       <h1 className="mt-6 text-2xl md:text-3xl capitalize font-bold text-center">
         Most Popular
       </h1>
-      <div className="mt-20 grid w-[90%] mx-auto grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4  gap-12">
+      <div className="mt-20 grid w-[90%] mx-auto grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-12">
         {cardData.map((data, index) => (
-          <MostPopularCard
-            key={index}
-            id={String(index)}
-            image={data.image}
-            title={data.title}
-            description={data.description}
-          />
+          <div
+            key={index} 
+            data-aos="fade-right"
+            data-aos-anchor-placement="top-center"
+            data-aos-delay={`${index * 100}`} 
+          >
+            <MostPopularCard
+              id={String(index)}
+              image={data.image}
+              title={data.title}
+              description={data.description}
+            />
+          </div>
         ))}
       </div>
     </div>

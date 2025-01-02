@@ -17,8 +17,8 @@ function PriceCard({ price, plan }: priceProps) {
   ];
 
   return (
-    <div className="bg-white p-12 rounded-lg shadow-lg">
-      <p className="mt-8 text-xl font-semibold text-[#E93306] text-center">
+    <div className="bg-white p-10 rounded-lg shadow-lg">
+      <p className="mt-3 text-xl font-semibold text-[#E93306] text-center">
         {plan} Plan
       </p>
       <div className="font-medium text-3xl mt-4 text-center">
@@ -41,7 +41,7 @@ function PriceCard({ price, plan }: priceProps) {
         ))}
       </div>
       <div className="mt-8">
-        <button className="block w-full p-3 text-base md:text-lg text-white font-bold bg-gradient-to-r from-[#E93306] via-[#E93306] via-[#FF5733] to-[#FFA500] hover:from-[#FF5733] hover:via-[#FFA500] hover:to-[#FFD700] transition-all duration-300 ">Start 14 Days Free Trail</button>
+        <button className="block w-full p-3 text-base md:text-lg text-white font-bold bg-gradient-to-r from-[#F86401] via-[#E93306] via-[#F86401] to-[#FFA500] hover:from-[#FF5733] hover:via-[#FFA500] hover:to-[#FFD700] transition-all duration-300 ">Start 14 Days Free Trail</button>
       </div>
     </div>
   );

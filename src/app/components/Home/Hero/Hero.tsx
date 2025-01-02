@@ -9,7 +9,7 @@ function Hero() {
                 {/* Image */}
                 <div>
                     {/* heading */}
-                    <h1 className='text-2xl sm:text-4xl md:text-5xl mt-6 mb-6 font-bold md:leading-[3rem] lg:leading-[3.5rem]'>Stream High-Quality Anime Anytime on Ani<span className='text-[#F86401]'>Flix</span></h1>
+                    <h1 data-aos="fade-up" className='text-2xl sm:text-4xl md:text-5xl mt-6 mb-6 font-bold md:leading-[3rem] lg:leading-[3.5rem]'>Stream High-Quality Anime Anytime on Ani<span className='text-[#F86401]'>Flix</span></h1>
                     {/* para */}
                     <p className='text-gray-700'>Enjoy unlimited access to your favorite anime in stunning quality. From classics to trending series, watch anytime, anywhere, and immerse yourself in the ultimate anime experience!</p>
                     {/* playstore and app store images */}
@@ -19,8 +19,8 @@ function Hero() {
                     </div>
                 </div>
                 {/* text */}
-                <div className='hidden lg:block'>
-                   <Image src={"/images/hero.png"} alt='hero'width={700} height={700}/>
+                <div data-aos="fade-up" data-aos-delay="200" className='hidden lg:block'>
+                   <Image src={"/images/1a.png"} alt='hero'width={500} height={500}/>
                 </div>
             </div>
         </div>
