@@ -1,6 +1,6 @@
 # Anime Streaming Website
 
-This is a sleek and responsive Anime Streaming Website built with **Next.js** (latest version 15) and **Tailwind CSS** for modern styling. The website features smooth animations powered by **AOS (Animate On Scroll)** and is fully deployed on **Vercel** for fast and reliable hosting.
+This is a sleek and responsive Anime Streaming Website built with **Next.js** (15.1.2) and **Tailwind CSS** for modern styling. The website features smooth animations powered by **AOS (Animate On Scroll)** and is fully deployed on **Vercel** for fast and reliable hosting.
 
 ## Features
 - **Modern UI/UX Design**: Designed using **Figma**, focusing on a clean and user-friendly interface.
@@ -10,7 +10,7 @@ This is a sleek and responsive Anime Streaming Website built with **Next.js** (l
 - **Deployment**: Deployed on **Vercel**, ensuring fast load times and excellent uptime.
 
 ## Tech Stack
-- **Next.js** (Latest version 15)
+- **Next.js** (15.1.2)
 - **Tailwind CSS**
 - **AOS (Animate On Scroll)**
 - **Vercel** for Deployment
