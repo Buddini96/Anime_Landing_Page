@@ -30,7 +30,7 @@ const AnalyticFeatures = () => {
             We prioritize understanding our viewers and continuously enhancing
             our platform through cutting-edge analytics and user feedback. By
             staying attuned to your needs, we ensure a seamless and enjoyable
-            streaming experience. Here's how we deliver value:{" "}
+            streaming experience. Here's how we deliver value:
           </p>
           <ul className="mt-7 space-y-2 text-gray-800">
             <li className="flex items-center font-semibold">
